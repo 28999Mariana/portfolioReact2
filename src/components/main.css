@@ -1,0 +1,349 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color: black;
+}
+main{
+    background: url(/assets/espacio-violeta.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    padding: 1rem;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    color:white;
+}
+intro-section{
+    padding:120px;
+    padding-top: 120px;
+    text-align: left;
+}
+.intro-section h3{
+    font-family: 'roboto', sans-serif;
+    font-size: 35px;
+    border: 1px solid white;
+    padding: 6px;
+    padding-left: 10px;
+    width: 422px;
+    margin-left: 4%;
+}
+.intro-section h3:hover{
+    background: linear-gradient(90deg, rgb(156, 9, 102), #4e0db0);
+}
+.intro-section h1{
+    font-family: 'roboto'sans-serif;
+    font-size: 62px;
+    padding-top: 10px;
+    width: 500px;
+    margin-left: 4%;
+} 
+.intro-section p{
+    font-size: 22px;
+    width: 700px;
+    line-height: 1.7;
+    margin-left: 4%;
+    padding-top: 80px;
+}
+/* img astronauta */
+.intro-section img{
+  width: 420px;
+  height: 420px;
+  margin-left: 260%;
+  margin-top: -380px;
+  transition: 0.8s ease-in-out;
+  line-height: 1;
+}
+.intro-section img {
+  animation: updown 6s linear infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(-50px);
+    }
+    50% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateY(-50px);
+    }
+} 
+
+.intro-section button{
+  font-size: 20px;
+  color:white;
+  width: 150px;
+  padding: 10px;
+  background-color: black;
+  border:2px solid white;
+  margin-top: 16px;
+  margin-left: 4%;
+}
+.intro-section button:hover{
+  background: linear-gradient(90deg, rgb(156, 9, 102), #4e0db0);
+}
+
+/* typetext */
+.typewriter-text {
+    overflow: hidden;
+    border-right: 0.15em solid linear-gradient(90deg, rgb(156, 9, 102), #509bf5); /* efecto cursor */
+    white-space: nowrap;
+    margin: 0 auto; /* centro del texto */
+    animation: typing 4s steps(40, end), blink-caret 4s step-end infinite;
+}
+
+/* Animación de escritura */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+} 
+
+
+/* circle */
+.circle {
+    position: relative;
+    margin-top: -215px;
+    margin-left: 780px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+  
+.circle:before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  box-shadow:  inset 0 0 60px rgba(0, 0, 0, 0.5);
+}
+
+.dots {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    animation: animate 20s linear infinite;
+}
+  
+.dots:before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: #fff;
+  border-radius: 50%;
+  left: calc(50% - 5px);
+  top: 0;
+  box-shadow: 50px 0 0 #fff, -65px -50px 0 #fff, -65px 50px 0 #fff,
+    -55px 0 0 #4e0db0, 45px 35px 0 rgb(156, 9, 102), -40px -40px 0 #261341,
+    40px -40px 0 #fff, 55px -59px 0 #fff;
+  animation: animate 20s linear infinite;
+}
+
+.dots:after {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background: #fff;
+  border-radius: 50%;
+  left: calc(50% - 5px);
+  bottom: 0;
+  box-shadow: -50px 0 0 #fff, 65px 50px 0 #fff, 65px -50px 0 #fff,
+    55px 0 0 rgb(156, 9, 102), -45px -35px 0 rgb(156, 9, 102), 40px 40px 0 rgb(156, 9, 102),
+    -40px 40px 0 #fff, -55px 59px 0 #fff;
+  animation: animate 20s linear infinite;
+}
+
+  @keyframes animate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+.section-2{
+  width: 1200px;
+  height: 400px;
+}
+.carousel-habilidades{
+  display:flex;
+  justify-content: center;
+  width: 100%;
+   
+  gap:130px;
+  margin-top: 800px;
+  background-color: black;
+  width: 1200px;
+  height: 400px;
+  margin-left: -189px;
+}
+.carousel-habilidades h2{
+  position: absolute;
+  margin-left: 1px;
+  margin-top: -320px;
+  font-size: 24px;
+  letter-spacing: 1px;
+  padding: 8px;
+}
+.section-2 img{
+  width: 250px;
+  height: 250px;
+  
+}
+/* slider-projects */
+.section-plantillas{
+  margin-top: 320%;
+  margin-left: -1000px;
+  width: 1900px;
+  height: 1400px;
+  background: black;
+}
+.section-plantillas h2{
+  color:white;
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin-top: -4%;
+  margin-left: 77px;
+  padding: 10px;
+  text-align: center;
+}
+.linea1{
+  width: 500px;
+  height: 2px;
+  background-color: #fff;
+  padding-left: 100%;
+  margin-top: -50px;
+}
+
+.slider{
+height: 600px;
+position: relative;
+width: 100%;
+display: grid;
+place-items: center;
+overflow: hidden;
+}
+.slide-track{
+
+display: flex;
+width: calc(450px * 24);
+animation: scroll 70s linear infinite;
+}
+.slide-track:hover{
+animation-play-state: paused;
+}
+
+@keyframes scroll{
+
+0%{
+  transform: translateX(0);
+}
+100%{
+  transform: translateX(calc(-350px * 12));
+}
+}
+.slide{
+height: 450px;
+width: 450px;
+display: flex;
+align-items: center;
+padding-top: 6%;
+padding: 8px;
+margin: 8px;
+perspective: 100px;
+}
+.slide img{
+  width: 400px;
+  height: 500px;
+}
+img{
+width: 100%;
+transition: transform 1s;
+}
+img:hover{
+transform: translateZ(15px);
+}
+/* footer */
+.footer {
+  width: 100%;
+  height: 800px;
+  margin-top: 90%;
+  background: linear-gradient(90deg, rgb(65, 28, 52), #110327); 
+  color: white;
+  text-align: center;
+  padding-top: 720px;
+}
+
+.footer h3{
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.footer p{
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+
+/* SKILLS */
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background: linear-gradient(90deg, rgb(39, 5, 28), #110327); 
+  
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  font-size: 21px;
+  letter-spacing: 1px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.carousel-habilidades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-habilidades img {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+

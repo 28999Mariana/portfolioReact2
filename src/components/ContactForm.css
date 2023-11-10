@@ -1,0 +1,55 @@
+/* FORMULARIO DE CONTACTO */
+.contact-section {
+    position: absolute;
+    top: 320%;
+    height: 400px;
+    overflow: hidden;
+    z-index: 1;
+    width: 1700px;
+    height: 450px;
+    background: url(/assets/fondoespacio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    left: -10px;
+}
+  
+.contact-section form {
+    width: 350px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: -2px;
+    margin-left: 60%;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.contact-section form label{
+    margin-left: -7px;
+} 
+.contact-section label,
+.contact-section textarea,
+.contact-section input {
+    width: 450px;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: none;
+}
+  
+.contact-section button {
+    padding: 10px 20px;
+    width:450px ;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background: linear-gradient(90deg, rgb(77, 8, 52), #1e0c3a);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.contact-section button:hover {
+    background: #20054b;
+}

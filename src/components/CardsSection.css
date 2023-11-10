@@ -1,0 +1,83 @@
+.cards-section{
+  padding:2rem 9%;
+  margin-top: 470%;
+  margin-left: -1080px;
+  display: flex;
+  justify-content: space-around;
+}
+.cards-section h2{
+  height: 30px;
+}
+
+.heading{
+  text-align: center;
+  padding:2.5rem 0
+}
+
+.btn{
+  display: inline-block;
+  margin-top: 1rem;
+  background:linear-gradient(90deg, rgb(156, 9, 102), #4e0db0);
+  color:#fff;
+  padding:5px;
+  border:.1px solid white;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover{
+  background: linear-gradient(90deg, rgb(77, 8, 52), #1e0c3a);
+  color: white;
+}
+
+.cards-section .box-container{
+  display: flex;
+  gap:60px;
+  margin-left: -200px;
+}
+
+.cards-section .box-container .box{
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  border:1px solid #fff;
+  height: 25rem;
+  position: relative;
+}
+
+.cards-section .box-container .box img{
+  height: 100%;
+  width:100%;
+  object-fit: cover;
+}
+
+.cards-section .box-container .box .content{
+  position: absolute;
+  top:-100%; left:0;
+  height: 100%;
+  width:100%;
+  text-align: center;
+  background:rgba(0,0,0,.7);
+  padding:2rem;
+  padding-top: 5rem;
+}
+
+.cards-section .box-container .box:hover .content{
+  top:0;
+}
+
+.cards-section .box-container .box .content h3{
+  font-size: 27px;
+  font-weight: 500;
+  color: white;
+}
+
+.cards-section .box-container .box .content p{
+  font-size: 22px;
+  color:#eee;
+  padding:.5rem 0;
+}
+.cards-section .box-container .box .content a{
+  text-decoration: none;
+}
+
