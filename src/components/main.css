@@ -277,26 +277,7 @@ transition: transform 1s;
 img:hover{
 transform: translateZ(15px);
 }
-/* footer */
-.footer {
-  width: 100%;
-  height: 800px;
-  margin-top: 90%;
-  background: linear-gradient(90deg, rgb(65, 28, 52), #110327); 
-  color: white;
-  text-align: center;
-  padding-top: 720px;
-}
 
-.footer h3{
-  letter-spacing: 1px;
-  font-size: 20px;
-  font-weight: 500;
-}
-.footer p{
-  font-size: 19px;
-  letter-spacing: 1px;
-}
 
 /* SKILLS */
 .modal {
@@ -347,3 +328,109 @@ transform: translateZ(15px);
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 320px) {
+
+
+  main {
+    background: url(/assets/espacio-violeta.png);
+    padding-top: 50px;
+    height: auto;
+    display: block;
+  }
+
+  .intro-section {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .intro-section h3 {
+    padding: 10px;
+    width: 280px;
+    font-size: 23px;
+    margin-left: -16px;
+    margin-top: 30%;
+  }
+
+  .intro-section h1 {
+    width: 300px; 
+    margin-left: -26px;
+    font-size: 40px;
+  
+  }
+  .intro-section p{
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
+    margin-left: -18px;
+    margin-top: 90px;
+  }
+
+  .intro-section img {
+    width: 100%; 
+    height: auto;
+    margin-left: 0;
+    margin-top: 80px; 
+  }
+
+  .intro-section button {
+    width: 100%; 
+    margin-left: 0;
+  }
+
+  .modal-content {
+    position: absolute;
+    top: 560px;
+    left:8px;
+    width: 25%; 
+    font-size: 14px; 
+  }
+
+  .section-2 {
+   width: 480px;
+   margin: 0;
+   display: block;
+  }
+
+  .carousel-habilidades {
+    display:block;
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 60px; 
+    width: 60%; 
+    height: 700px;
+    margin-left: 0;
+    padding-left: 53px;
+    padding-top: 53px; 
+  }
+
+  .carousel-habilidades h2 {
+    margin-top: -35px; 
+    margin-left: 40px;
+    font-size: 22px;
+  }
+
+  .carousel-habilidades img { 
+    width: 180px;
+    height: 200px;
+    margin-bottom: 5px; 
+  }
+  .section-plantillas{
+    margin-top: 200%;
+  }
+  .section-plantillas h2{
+    margin-left: 20.5%;
+    margin-top: 50px;
+    font-size: 17px;
+  }
+  .slide {
+    margin-top: -30%;
+    margin: -40px; 
+  }
+
+  .slider img{
+    width: 320px;
+    height: 400px;
+  }
+
+}

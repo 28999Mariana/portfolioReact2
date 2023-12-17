@@ -53,3 +53,44 @@
 .contact-section button:hover {
     background: #20054b;
 }
+
+@media screen and (max-width: 320px) {
+    .contact-section {
+      position: absolute;
+      top: 849%; 
+      width: 100%; 
+      padding: 20px; 
+      left: 0; 
+    }
+  
+    .contact-section form {
+      width: 100%; 
+      margin-left: 0; 
+    }
+  
+    .contact-section form label,
+    .contact-section textarea,
+    .contact-section input {
+      width: 100%; 
+    }
+  
+    .contact-section button {
+      width: 100%; 
+    }
+  
+  }
+
+  .custom-toast {
+    width: 300px;
+    height: 50px;
+    margin-top: 120px;
+    margin-left: 25%;
+    background-color: whitesmoke;
+    color: rgb(87, 9, 87);
+    padding: 15px;
+    padding-left: 60px;
+    font-size: 20px;
+    letter-spacing: .5px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }

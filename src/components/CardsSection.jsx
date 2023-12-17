@@ -7,26 +7,26 @@ const CardsSection = () => {
   const projects = [
     {
       id: 1,
-      imageSrc: "/assets/plantilla1.png",
+      imageSrc: '../../public/assets/plantilla1.jpg',
       title: "Project 1",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.",
     },
     {
       id: 2,
-      imageSrc: "/assets/plantilla2.png",
+      imageSrc: '../../public/assets/plantilla2.jpg',
       title: "Project 2",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.",
     },
     {
-      id: 1,
-      imageSrc: "/assets/plantilla3.png",
-      title: "Project 1",
+      id: 3,
+      imageSrc: '../../public/assets/plantilla3.jpg',
+      title: "Project 3",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.",
     },
     {
-      id: 2,
-      imageSrc: "/assets/plantilla4.png",
-      title: "Project 2",
+      id: 4,
+      imageSrc: '../../public/assets/plantilla4.jpg',
+      title: "Project 4",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.",
     },
   ];

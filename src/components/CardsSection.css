@@ -1,6 +1,6 @@
 .cards-section{
   padding:2rem 9%;
-  margin-top: 470%;
+  margin-top: 452%;
   margin-left: -1080px;
   display: flex;
   justify-content: space-around;
@@ -81,3 +81,27 @@
   text-decoration: none;
 }
 
+@media screen and (max-width: 320px) {
+  .cards-section {
+    padding: 2rem 5%;
+    margin-top: -280%; 
+    margin-left: 0; 
+    display: block; 
+  }
+
+  .cards-section .box-container {
+    flex-direction: column; 
+    gap: 20px; 
+    margin-left: 0; 
+  }
+
+  .cards-section .box-container .box {
+    width: 100%; 
+    margin-left: 0; 
+  }
+
+  .cards-section .box-container .box .content {
+    top: 0; 
+    background: rgba(0, 0, 0, 0.9); 
+  }
+}

@@ -1,10 +1,36 @@
+
+/* footer */
 .footer {
     width: 100%;
-    margin-top: 100px;
-    
-    background: linear-gradient(90deg, rgb(156, 9, 102), #4e0db0); 
-    background-size: cover; 
-    background-repeat: no-repeat; 
+    height: 800px;
+    margin-top: 90%;
+    background: linear-gradient(90deg, rgb(65, 28, 52), #110327); 
     color: white;
     text-align: center;
-}
+    padding-top: 720px;
+  }
+  
+  .footer h3{
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .footer p{
+    font-size: 19px;
+    letter-spacing: 1px;
+  }
+
+@media screen and (max-width: 320px) {
+    .footer {
+      position: absolute;
+      top: 800%; 
+    }
+  
+    .footer h3 {
+      font-size: 18px;
+    }
+  
+    .footer p {
+      font-size: 14px; 
+    }
+  }
